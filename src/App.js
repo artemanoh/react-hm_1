@@ -27,7 +27,7 @@ function App() {
         <p>Сума: {sum}</p>
        <ul>{colors.map((color, index) => <li key={index}>{color}</li>)}</ul>
       </header>
-    </div>
+    </div> 
   );
 }
 
